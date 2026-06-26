@@ -11,6 +11,10 @@ config.toml
 HANDOFF.md
 CONVERSATION_HISTORY.md
 
+# Local visual references / attachments
+viz*.png
+viz*.mp4
+
 # Python
 __pycache__/
 *.py[cod]
@@ -26,6 +30,10 @@ env/
 build/
 dist/
 *.spec
+!voice-to-text.spec
+
+# Runtime logs
+*.log
 
 # OS / IDE
 .DS_Store

@@ -11,14 +11,17 @@ groq_api_key = "paste-your-groq-api-key-here"
 # Create an OpenAI API key: https://platform.openai.com/api-keys
 openai_api_key = ""
 
+[hotkey]
+# Push-to-talk keys. All listed keys must be held simultaneously.
+# Single-key examples: ["ctrl_r"], ["f12"], ["pause"]
+# Combo examples:      ["ctrl_r", "space"], ["alt_r", "space"]
+# Available: ctrl_r, ctrl_l, alt_r, alt_l, alt_gr, shift_r, shift_l,
+#            space, f1..f12, pause, scroll_lock
+keys = ["ctrl_r"]
+
 [audio]
 sample_rate = 16000
 channels = 1
-
-[hotkey]
-# Hold all listed keys to record, release any of them to transcribe and paste.
-# Supported examples: "ctrl_r", "alt_r", "alt_gr", "space", "f8", "pause".
-keys = ["alt_r", "space"]
 
 [ui]
 accent_color = "#5DADE2"
