@@ -1,0 +1,35 @@
+# Secrets and local config
+config.toml
+.env
+.env.*
+*.key
+*.pem
+
+# Hermes / local agent artifacts
+.hermes/
+.superpowers/
+HANDOFF.md
+CONVERSATION_HISTORY.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Build artifacts
+build/
+dist/
+*.spec
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

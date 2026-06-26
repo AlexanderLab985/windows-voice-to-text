@@ -1,0 +1,24 @@
+[api]
+# Primary provider: "groq" or "openai".
+provider = "groq"
+
+# 1. Create a Groq API key: https://console.groq.com/keys
+# 2. Copy this file to config.toml
+# 3. Paste your key between the quotes below.
+groq_api_key = "paste-your-groq-api-key-here"
+
+# Optional fallback. If Groq fails and this key is set, the app will try OpenAI Whisper.
+# Create an OpenAI API key: https://platform.openai.com/api-keys
+openai_api_key = ""
+
+[audio]
+sample_rate = 16000
+channels = 1
+
+[hotkey]
+# Hold all listed keys to record, release any of them to transcribe and paste.
+# Supported examples: "ctrl_r", "alt_r", "alt_gr", "space", "f8", "pause".
+keys = ["alt_r", "space"]
+
+[ui]
+accent_color = "#5DADE2"

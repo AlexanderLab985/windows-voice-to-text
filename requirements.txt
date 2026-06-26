@@ -1,0 +1,8 @@
+PySide6>=6.6
+pynput>=1.7
+sounddevice>=0.4
+numpy>=1.26
+requests>=2.31
+pyperclip>=1.8
+pyautogui>=0.9
+tomli>=2.0; python_version < "3.11"
